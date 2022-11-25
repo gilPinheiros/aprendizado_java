@@ -24,7 +24,7 @@
                   <Insets bottom="10.0" top="10.0" />
                </VBox.margin>
             </ImageView>
-            <TextField fx:id="txtLogin" prefHeight="35.0" prefWidth="200.0" promptText="Login">
+            <TextField fx:id="txtLogin" alignment="CENTER" prefHeight="35.0" prefWidth="200.0" promptText="Login">
                <VBox.margin>
                   <Insets bottom="2.0" left="2.0" right="2.0" top="5.0" />
                </VBox.margin>
@@ -32,7 +32,7 @@
                   <Font size="16.0" />
                </font>
             </TextField>
-            <PasswordField fx:id="txtSenha" prefHeight="35.0" prefWidth="200.0" promptText="Senha">
+            <PasswordField fx:id="txtSenha" alignment="CENTER" prefHeight="35.0" prefWidth="200.0" promptText="Senha">
                <VBox.margin>
                   <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                </VBox.margin>
