@@ -1,0 +1,15 @@
+/* Login digital*/
+ .tela {
+    -fx-background-color: linear-gradient(to top, #33a3b3, #375564);
+ } 
+ .label {
+    -fx-text-fill: #fff;
+    
+ }
+ .botoes{
+    -fx-background-color: #33a3b2;
+    -fx-text-fill: #fff; 
+ }.botoes:pressed{
+    -fx-background-color: #252521;
+    -fx-text-fill: #fff; 
+ }

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="tela" stylesheets="@../utils/Login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.sisvendas.controller.LoginController">
+   <children>
+      <VBox alignment="CENTER" fillWidth="false" layoutX="310.0" layoutY="10.0" prefHeight="500.0" prefWidth="500.0">
+         <children>
+            <ImageView fitHeight="226.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/usuarios.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </ImageView>
+            <TextField fx:id="txtLogin" prefHeight="35.0" prefWidth="200.0" promptText="Login">
+               <VBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="txtSenha" prefHeight="35.0" prefWidth="200.0" promptText="Senha">
+               <VBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </PasswordField>
+            <ToggleButton fx:id="btnLogar" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" styleClass="botoes" text="E N T R A R">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </ToggleButton>
+            <Label fx:id="lblMensagen" text="LOGGAR">
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label prefHeight="30.0" text="Sistema de vendas simples">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+            <Label prefHeight="30.0" text="Contato para nossos canais">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+            <Label prefHeight="30.0" text="www.gilCdigitação">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</HBox>
